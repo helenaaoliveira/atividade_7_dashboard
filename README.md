@@ -1,3 +1,3 @@
-# atividade_7_dashboard
+# Atividade 7 - Dashboard
 
 O dashboard de Muay Thai foi desenvolvido com o objetivo de organizar, visualizar e gerenciar informações de lutadores de maneira prática, moderna e interativa. A plataforma permite acompanhar estatísticas importantes, como número de vitórias, derrotas, nocautes e categorias de peso, além de oferecer filtros dinâmicos e indicadores automáticos para facilitar a análise dos dados. Também é possível adicionar e remover lutadores em tempo real, mantendo as informações salvas no navegador através do localStorage, proporcionando uma experiência mais completa e funcional ao usuário.
