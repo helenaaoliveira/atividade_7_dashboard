@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muay Thai Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🥊 Muay Thai Dashboard</h1>
+        <p>Painel de lutadores</p>
+    </header>
+
+    <main>
+        <section class="resumo">
+
+            <div class="card-resumo">
+                <h2 id="totalLutadores">0</h2>
+                <p>Total de Lutadores</p>
+            </div>
+
+            <div class="card-resumo">
+                <h2 id="mediaVitorias">0</h2>
+                <p>Média de Vitórias</p>
+            </div>
+
+            <div class="card-resumo">
+                <h2 id="maiorNocaute">0</h2>
+                <p>Maior Número de KO</p>
+            </div>
+
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="filtros">
+
+            <select id="filtroCategoria">
+                <option value="Todos">Todas Categorias</option>
+                <option value="Peso Leve">Peso Leve</option>
+                <option value="Peso Médio">Peso Médio</option>
+                <option value="Peso Pesado">Peso Pesado</option>
+            </select>
+
+        </section>
+
+        <!-- FORMULÁRIO -->
+        <section class="formulario">
+
+            <h2>Adicionar Lutador</h2>
+
+            <form id="formLutador">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="text" id="categoria" placeholder="Categoria" required>
+                <input type="number" id="vitorias" placeholder="Vitórias" required>
+                <input type="number" id="derrotas" placeholder="Derrotas" required>
+                <input type="number" id="nocautes" placeholder="Nocautes" required>
+                <input type="text" id="pais" placeholder="País" required>
+                <button type="submit">Adicionar</button>
+            </form>
+
+        </section>
+
+        <!-- CARDS -->
+        <section class="cards" id="listaLutadores">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Dashboard desenvolvido por Helena, João Santos e Rafaela | 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
